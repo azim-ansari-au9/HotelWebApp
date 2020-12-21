@@ -9,10 +9,17 @@ const QuickSearch = (props) => {
                 return(
                     <Link to="/">
                         <div className='tileContainer'>
-                            <div className="">
-                                
+                            <div className="tileComponent1">
+                                <img src={item.image} />
                             </div>
-
+                            <div className="tileComponent2">
+                                <div className="componentHeading">
+                                    {item.name}
+                                </div>
+                                <div className="componentSubHeading">
+                                    Let's Go {item.name} tour with Organization.
+                                </div>
+                            </div>
                         </div>
                     </Link>
                 )
