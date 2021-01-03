@@ -11,12 +11,12 @@ const Header = () => {
                     <span className="icon-bar"></span>
                     <span className="icon-bar"></span>
                 </button>
-                <a className="navbar-brand" href="#">Azim Ansari</a>
+                <a className="navbar-brand" href="/azim">!O!</a>
                 </div>
                 <div className="collapse navbar-collapse" id="myNavbar">
                     <ul className="nav navbar-nav">
                         <li><Link to="/">Home</Link></li>
-                        <li><Link to="/Booking">Bokking</Link></li>
+                        <li><Link to="/Booking">Booking</Link></li>
                         <li><Link to="/profile">profile</Link></li>
                     </ul>
                     <div>

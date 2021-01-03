@@ -7,7 +7,7 @@ const QuickSearch = (props) => {
         if (tripdata){
             return tripdata.map((item) =>{
                 return(
-                    <Link to="/">
+                    <Link to={`/list/${item.trip}`}>
                         <div className='tileContainer'>
                             <div className="tileComponent1">
                                 <img src={item.image} />

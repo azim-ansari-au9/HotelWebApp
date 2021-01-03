@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
 import QuickDisplay from './QuickDisplay';
 import './QuickSearch.css';
-const QuickUrl="https://developerfunnel.herokuapp.com/booking"
+
+
+const QuickUrl="https://developerfunnel.herokuapp.com/booking";
+
 
 class QuickSearch extends Component{
     constructor(){

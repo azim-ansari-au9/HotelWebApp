@@ -50,7 +50,7 @@ class Search extends Component{
         return (
         <div className="imageContainer">
             <div id="logo">
-                0!
+                !0!
             </div>
             <div className="heading">
                 Plan for a tour
