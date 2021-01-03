@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Footer = () => {
+const Footer = (props) => {
     return(
         <React.Fragment>
-            <hr />
+            <hr/>
             <center>
-                <h3>&copy; Azim Ansari Reserved</h3>
+                <h3>&copy; Azim Developer </h3>
             </center>
         </React.Fragment>
     )

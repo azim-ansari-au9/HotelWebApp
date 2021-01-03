@@ -1,23 +1,27 @@
 import React from 'react';
-import './QuickSearch.css';
+import './QkSearch.css';
 import {Link} from 'react-router-dom';
+import myObj from './abc';
+
 
 const QuickSearch = (props) => {
-    const listTrip=({tripdata}) => {
-        if (tripdata){
-            return tripdata.map((item) =>{
+
+    console.log(myObj.users)
+    const listTrip = ({tripdata}) => {
+        if(tripdata){
+            return tripdata.map((item) => {
                 return(
-                    <Link to={`/list/${item.trip}`}>
-                        <div className='tileContainer'>
+                    <Link key={item.name} to={`/list/${item.trip}` }>
+                        <div className="tileContainer" >
                             <div className="tileComponent1">
-                                <img src={item.image} />
+                                <img src={item.image} alt={item.name} />
                             </div>
                             <div className="tileComponent2">
                                 <div className="componentHeading">
                                     {item.name}
                                 </div>
                                 <div className="componentSubHeading">
-                                    Let's Go {item.name} tour with Organization.
+                                    Start your {item.name} trip with us.
                                 </div>
                             </div>
                         </div>
@@ -34,9 +38,9 @@ const QuickSearch = (props) => {
                     QuickSearch
                 </p>
                 <p className="quickSearchSubHeading">
-                    Found Trip By Type.
+                    Discover Trip By Type
                 </p>
-                <br />
+                <br/>
                 {listTrip(props)}
             </div>
         </div>

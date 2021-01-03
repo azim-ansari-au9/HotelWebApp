@@ -1,14 +1,14 @@
 import React from 'react';
 import Search from './Search';
-import QuickSearch from './QuickSearch';
+import QuickSearch from './QkSearch';
 
-const Home =() =>{
+const Homes = () => {
     return(
         <div>
-            <Search />
-            <QuickSearch />
+            <Search/>
+            <QuickSearch/>
         </div>
     )
 }
 
-export default Home;
+export default Homes;

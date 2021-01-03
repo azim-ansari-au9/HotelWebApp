@@ -1,5 +1,5 @@
 .imageContainer{
-    background: url('https://images.unsplash.com/photo-1584971496095-c7aa56c3519b?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTM1fHxob3RlbHxlbnwwfDB8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
+    background: url('https://i.ibb.co/Cv6Y9NL/bg.jpg');
     border-style: solid ;
     border-color: white;
     background-repeat: no-repeat;
@@ -11,10 +11,10 @@ body{
 }
 #logo{
     text-align: center;
-    color:rgb(204, 216, 30);
+    color:rgb(11, 168, 196);
     font-weight: bold;
-    font-size: 95px;
-    background-color:rgba(119, 34, 34, 0.507);
+    font-size: 90px;
+    background-color:white;
     height:150px;
     width:150px;
     margin:auto;

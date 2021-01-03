@@ -1,8 +1,8 @@
 import React ,{Component} from 'react';
 import axios from 'axios';
 import ListingDisplay from './listingDisplay';
-// import RoomFilter from '../filters/roomfilter'
-// import Filter from '../filters/Filter'
+import RoomFilter from '../filters/roomfilter'
+import Filter from '../filters/Filter'
 
 const url = "https://developerfunnel.herokuapp.com/hotellist";
 
